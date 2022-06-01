@@ -1,26 +1,26 @@
 variable "aws_region" {
-  type = string
+  type        = string
   description = ""
-  default = "us-east-1"
+  default     = "us-east-1"
 }
 
 variable "instance_ami" {
-  type = string
+  type        = string
   description = ""
-  default = "ami-0022f774911c1d690"
+  default     = "ami-0022f774911c1d690"
 }
 
 variable "instance_type" {
-  type = string
+  type        = string
   description = ""
-  default = "t2.micro"
+  default     = "t2.micro"
 }
 
 variable "tags" {
-  type = map(string)
+  type        = map(string)
   description = ""
   default = {
     Name = "My instance 1"
-    Env = "teste"
+    Env  = "teste"
   }
 }
