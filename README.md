@@ -1,8 +1,8 @@
 # Curso de Terraform
 
-Curso de terraform reliazado pelo site da udemy. 
+Curso de Terraform relizado pelo site da Udemy. 
 
-Link curso: https://www.udemy.com/course/aws-com-terraform/
+Link do curso: https://www.udemy.com/course/aws-com-terraform/
 ## Conteúdo
 
  - Terraform Básico
