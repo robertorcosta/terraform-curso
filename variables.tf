@@ -24,3 +24,9 @@ variable "tags" {
     Env  = "teste"
   }
 }
+
+variable "env_dev" {
+  type        = string
+  description = ""
+  default     = "dev"
+}
