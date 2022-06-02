@@ -1,4 +1,4 @@
-output "bucket_name" {
+/*output "bucket_name" {
   value = aws_s3_bucket.bucket1.bucket
 }
 
@@ -12,4 +12,4 @@ output "domain_name" {
 
 output "file_path" {
   value = "${aws_s3_bucket.bucket1.bucket}/${aws_s3_object.bucket1.key}"
-}
+}*/
